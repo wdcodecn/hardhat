@@ -1,0 +1,7 @@
+[
+  "event ValueChanged(uint256)",
+  "function increment()",
+  "function initialize(uint256)",
+  "function retrieve() view returns (uint256)",
+  "function store(uint256)"
+]

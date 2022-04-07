@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run": "hardhat run",
+    "clean": "hardhat clean",
     "test": "hardhat test --trace",
     "compile": "hardhat compile",
     "deploy": "hardhat deploy",
@@ -37,10 +37,13 @@
     "hardhat-abi-exporter": "^2.8.0",
     "hardhat-gas-reporter": "^1.0.8",
     "hardhat-log-remover": "^2.0.2",
+    "hardhat-tracer": "^1.1.0-rc.3",
     "prettier": "^2.6.2",
     "prettier-plugin-solidity": "^1.0.0-beta.13",
     "solhint": "^3.3.7",
-    "solidity-coverage": "^0.7.20",
-    "hardhat-tracer": "^1.1.0-rc.3"
+    "solidity-coverage": "^0.7.20"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts-upgradeable": "^4.5.2"
   }
 }
